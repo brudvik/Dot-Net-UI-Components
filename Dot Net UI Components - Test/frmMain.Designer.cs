@@ -55,6 +55,7 @@
             this.btnCBData = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.lblCBValue = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -91,13 +92,14 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label7);
             this.tabPage2.Controls.Add(this.groupBox2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(647, 451);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "tabPage2";
+            this.tabPage2.Text = "ComboBox";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // bccExtendedListView1
@@ -271,7 +273,7 @@
             this.groupBox2.Controls.Add(this.label6);
             this.groupBox2.Controls.Add(this.btnCBData);
             this.groupBox2.Controls.Add(this.bccExtendedComboBox1);
-            this.groupBox2.Location = new System.Drawing.Point(17, 60);
+            this.groupBox2.Location = new System.Drawing.Point(14, 60);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(607, 103);
             this.groupBox2.TabIndex = 0;
@@ -317,6 +319,15 @@
             this.lblCBValue.Size = new System.Drawing.Size(11, 13);
             this.lblCBValue.TabIndex = 4;
             this.lblCBValue.Text = "-";
+            // 
+            // label7
+            // 
+            this.label7.Location = new System.Drawing.Point(12, 9);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(628, 48);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "This Extended ComboBox Controller gives you the ability to add entries with Color" +
+    ", Image, Custom Return Value or as an ordinary ComboBox return.";
             // 
             // frmMain
             // 
@@ -368,5 +379,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button btnCBData;
         private BCCExtendedComboBox bccExtendedComboBox1;
+        private System.Windows.Forms.Label label7;
     }
 }
